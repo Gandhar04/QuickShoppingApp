@@ -1,0 +1,23 @@
+.backDrop {
+  position: fixed;
+  /* border: 2px solid red; */
+  background-color: rgba(50, 50, 50, 0.7);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
+
+.modalcontent {
+  z-index: 2;
+  background-color: white;
+  position: fixed;
+  max-width: 1280px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+  overflow-y: scroll;
+  padding: 1rem;
+  max-height: 700px;
+  border-radius: 0.5rem;
+}
